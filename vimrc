@@ -25,3 +25,18 @@ au BufNewFile *.h 0r! printf "\#ifndef _H\n\#define _H\n\n\n\#endif"
 
 " convenient map
 map <space> i <esc>
+
+" type map
+imap ( ()<left>
+imap [ []<left>
+imap { {}<left>
+
+" abbreviate
+ab ii #include 
+ab rr return;<left>
+ab pf printf( <left>
+ab fpf fprintf( <left>
+ab dou double
+ab fori for ( int i; i <x; ++i )<esc>xFxs
+ab forj for ( int j; j <x; ++j )<esc>xFxs
+ab forkk for ( int k; k <x; ++k )<esc>xFxs
