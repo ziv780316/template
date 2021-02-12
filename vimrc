@@ -3,6 +3,7 @@ set nu
 set autoindent
 set nowrap
 set hlsearch
+syntax on
 
 " useful key map
 nmap <backspace> :nohlsearch<return>
