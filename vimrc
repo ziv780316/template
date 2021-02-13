@@ -3,6 +3,7 @@ set nu
 set autoindent
 set nowrap
 set hlsearch
+set ic
 syntax on
 
 " useful key map
@@ -10,6 +11,7 @@ nmap <backspace> :nohlsearch<return>
 
 " keyword auto-complete
 map! ` <C-N>
+map! l` <C-X><C-L>
 
 " cscope
 nmap \s :cs find s <C-R>=expand("<cword>")<CR><CR>
