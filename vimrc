@@ -18,6 +18,7 @@ nmap \s :cs find s <C-R>=expand("<cword>")<CR><CR>
 nmap \g :cs find g <C-R>=expand("<cword>")<CR><CR>
 nmap \c :cs find c <C-R>=expand("<cword>")<CR><CR>
 nmap \i :cs find i <C-R>=expand("<cword>")<CR><CR>
+cs add cscope.out
 
 " tab
 nmap <F5> :tabnew 
